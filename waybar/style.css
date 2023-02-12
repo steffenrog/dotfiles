@@ -1,0 +1,76 @@
+* {
+    font-family: "Cartograph CF Nerd Font, monospace";
+    font-size: 15px;
+}
+
+window#waybar {
+    color: #bd93f9;
+    background-color: rgba(40, 42, 54, 0.7);
+    border-radius: 0%;
+}
+
+.modules-center,
+.modules-left,
+.modules-right {
+    min-height:40px;
+}
+
+#clock,
+#network,
+#pulseaudio,
+#battery,
+#temperature,
+#custom-weather,
+#custom-notification {
+    padding: 0 15px;
+}
+
+#battery.charging {
+    background-color: transparent;
+    color: #50fa7b;
+}
+
+#battery.warning:not(.charging) {
+    background-color: transparent;
+    color: #ff5555;
+}
+#workspaces button {
+    padding: 5px;
+    color: #313244;
+    margin-right: 5px;
+}
+
+#workspaces button.active {
+    color: #a6adc8;
+}
+
+#workspaces button.focused {
+    color: #a6adc8;
+    background: #eba0ac;
+    border-radius: 10px;
+}
+
+#workspaces button.urgent {
+    color: #11111b;
+    background: #a6e3a1;
+    border-radius: 10px;
+}
+
+#workspaces button:hover {
+    background: #11111b;
+    color: #cdd6f4;
+    border-radius: 10px;
+}
+#workspaces {
+    background: #1e1e2e;
+    border-radius: 10px;
+    margin-left: 10px;
+    padding-right: 0px;
+    padding-left: 5px;
+}
+#clock {
+    color: #fab387;
+    border-radius: 10px 0px 0px 10px;
+    margin-left: 5px;
+    border-right: 0px;
+}
