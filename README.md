@@ -1,0 +1,2 @@
+# dotfiles
+ Arch - Wayland  - Hyprland
